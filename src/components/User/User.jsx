@@ -23,6 +23,12 @@ const User = ({ user }) => {
       >
         Show Details
       </Link>
+      <Link
+        className="font-bold bg-purple-300 p-2 my-2 rounded-lg ml-2"
+        to={`/user/${id}`}
+      >
+        <button>Click Me</button>
+      </Link>
     </div>
   );
 };
