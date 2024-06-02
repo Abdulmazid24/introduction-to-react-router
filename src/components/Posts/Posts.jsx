@@ -5,8 +5,8 @@ const Posts = () => {
   const posts = useLoaderData();
   console.log(posts);
   return (
-    <div className="bg-gray-200">
-      <div className="bg-gray-950 text-white text-xl font-bold rounded-lg p-3 m-2 text-center">
+    <div className="bg-gray-300">
+      <div className="bg-gray-950 text-white text-xl font-semibold rounded-lg p-3 m-2 text-center">
         <h2>Our Posts: {posts.length}</h2>
       </div>
       <div className="md:grid grid-cols-4 gap-2">
